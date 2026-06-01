@@ -22,3 +22,11 @@ warning: copying the wrong json may mess up / confuse your keyboard !
   * note: use `US` keyboard language setting in macOS
     * note: `US International PC` produces a weird/broken tilde key (it's a tilde accent rather than a tilde character)
 
+* `ext-ansi-jis.json` is for an external ANSI keyboard connected to a computer with JIS driver
+
+* `rkr65-dvorak-jis.json` is for (specifically) the RK-R65 keyboard with dvorak layout
+  to a computer that has a JIS driver.
+  Note: I'm using a customized RK-R65 with the keys physically rearranged to dvorak layout,
+  while the firmware still acts like US ANSI.
+  Change vendor id / product id in the json for other brands of keyboards.
+  Choose US layout in macOS, Karabiner will remap to dvorak.

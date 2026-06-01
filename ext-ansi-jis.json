@@ -1,0 +1,278 @@
+{
+    "description": "external ANSI keyboard with JIS Driver",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "2",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "open_bracket" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "6",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "equal_sign" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "7",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "6",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "8",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "quote",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "9",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "8",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "0",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "9",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "hyphen",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "international1" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": { "key_code": "equal_sign" },
+            "to": [
+                {
+                    "key_code": "hyphen",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "equal_sign",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "semicolon",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": { "key_code": "backslash" },
+            "to": [
+                {
+                    "key_code": "international3",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "backslash",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "international3",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "backslash",
+                "modifiers": { "mandatory": ["option"] }
+            },
+            "to": [{ "key_code": "international3" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "open_bracket",
+                "modifiers": { "optional": "any" }
+            },
+            "to": [{ "key_code": "close_bracket" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "close_bracket",
+                "modifiers": { "optional": "any" }
+            },
+            "to": [{ "key_code": "backslash" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "quote" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": { "key_code": "quote" },
+            "to": [
+                {
+                    "key_code": "7",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "is_built_in_keyboard": false }],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "quote",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "2",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
