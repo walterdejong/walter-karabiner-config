@@ -26,6 +26,9 @@ warning: copying the wrong json may mess up / confuse your keyboard !
     * note: `US International PC` produces a weird/broken tilde key
       (it's a tilde accent rather than a tilde character)
 
+* `yen-to-backslash-jis.json` changes the Yen key to produce a backslash
+  while using the JIS driver. This modification applies to all keyboards.
+
 * `ext-ansi-jis.json` is for an external ANSI keyboard connected to a computer
   with JIS driver
 
@@ -36,8 +39,15 @@ warning: copying the wrong json may mess up / confuse your keyboard !
   Change vendor id / product id in the json for other brands of keyboards.
   Choose US layout in macOS, Karabiner will remap to dvorak.
 
+* `keychron-k1-dvorak-jis.json` is a dvorak layout specifically for the
+  Keychron K1 wireless keyboard, using a JIS driver. The keyboard is a US
+  ANSI keyboard, but we're using the JIS driver in this case.
+  Moreover the keys have been physically rearranged to dvorak layout.
+  Change vendor id / product id in the json for other brands of keyboards.
+  Choose US layout in macOS, Karabiner will remap to dvorak.
+
 * `keychron-k1-us-ansi-dvorak.json` is a dvorak layout specifically for the
-  keychron K1 wireless keyboard. It is a US ANSI keyboard (use the ANSI driver)
+  Keychron K1 wireless keyboard. It is a US ANSI keyboard (use the ANSI driver)
   with physically rearranged keys.
   Change vendor id / product id in the json for other brands of keyboards.
   Choose US layout in macOS, Karabiner will remap to dvorak.
