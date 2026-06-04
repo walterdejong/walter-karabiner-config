@@ -1,0 +1,13 @@
+{
+    "description": "Yen symbol to backslash (JIS driver)",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "international3"
+            },
+            "to": [{ "key_code": "international3",
+                     "modifiers": ["option"]}],
+            "type": "basic"
+        }
+    ]
+}
