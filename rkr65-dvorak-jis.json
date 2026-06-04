@@ -480,10 +480,10 @@
                 }
             ],
             "from": {
-                "key_code": "backslash",
-                "modifiers": { "optional": ["caps_lock", "left_command", "left_control", "left_option", "right_command", "right_control", "right_option"] }
+                "key_code": "backslash"
             },
-            "to": [{ "key_code": "international3" }],
+            "to": [{ "key_code": "international3",
+                     "modifiers": ["option"] }],
             "type": "basic"
         },
         {
